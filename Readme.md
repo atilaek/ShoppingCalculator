@@ -1,4 +1,4 @@
-#Shopping Calculator Demo Project
+# Shopping Calculator Demo Project
 
 ## INSTRUCTIONS
 
@@ -8,9 +8,9 @@ The goods that can be purchased, which are all priced in GBP, are:
 
 `Bread ? 80p per loaf`
 
-`Milk ? £1.30 per bottle`
+`Milk ? Â£1.30 per bottle`
 
-`Apples ? £1.00 per bag`
+`Apples ? Â£1.00 per bag`
 
 Current special offers are:
 
@@ -25,19 +25,19 @@ For example: PriceBasket Apples Milk Bread
 
 Output should be to the console, for example:
 
-`Subtotal: £3.10`
+`Subtotal: Â£3.10`
 
 `Apples 10% off: -10p`
 
-`Total: £3.00`
+`Total: Â£3.00`
 
 If no special offers are applicable, the code should output:
 
-`Subtotal: £1.30`
+`Subtotal: Â£1.30`
 
 `(no offers available)`
 
-`Total: £1.30`
+`Total: Â£1.30`
 
 ## Project Details:
 
