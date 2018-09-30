@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Apple 10%",
+    "products": null,
+    "discount": [
+      {
+        "percentage": 10,
+        "productids": [
+          4
+        ],
+        "maxamount": 5
+      }
+    ]
+  },
+  {
+    "title": "Buy 2 tins of soup and get a loaf of bread for half price",
+     "products": [
+      {
+        "id": 1,
+        "amount": 2
+      }
+    ],
+    "discount": [
+      {
+        "percentage": 50,
+        "productids": [
+          2
+        ],
+        "maxamount": 1
+      }
+    ]
+  }
+]
+
