@@ -51,7 +51,7 @@ The project has designed and implemented with extreme flexibility for extensions
 
 ## How To Run
 
-###On Cmd
+### On Cmd
 
 `1- copy paste products.json and promotions.jsFon to C:\`
 
@@ -63,7 +63,7 @@ The project has designed and implemented with extreme flexibility for extensions
 
 `f.e. c:\ShoppingCalculator>java -jar ./target/ShoppingCalculator-0.1.jar Soup Soup Bread Apple`
 
-##Special Thanks To:
+## Special Thanks To:
 https://www.mkyong.com/
 
 https://dzone.com/
