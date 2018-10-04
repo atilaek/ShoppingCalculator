@@ -86,14 +86,20 @@ public class CashierService {
                     shoppingCart.removeFromBasket(purchaseProduct);
                     customer.addPurchase(purchaseProduct);
                 });
+                customer.addPromotion(promotion);
             }
+
             promotion.getDiscount().forEach(discount -> {
                 discount.getProductids().forEach(discountProductId -> {
                     int takenAmount = shoppingCart.removeFromBasket(store.getSingleDuplicateStoreProduct(discountProductId, discount.getMaxamount()));
-                    customer.addDiscountedPurchase(store.getSingleDuplicateStoreProduct(discountProductId, takenAmount), discount.getPercentage());
+                    for (int i = 0; i < takenAmount; i++) {
+                        customer.addDiscountedPurchase(store.getSingleDuplicateStoreProduct(discountProductId, 1), discount.getPercentage());
+                        if (promotion.getProducts() == null) {
+                            customer.addPromotion(promotion);
+                        }
+                    }
                 });
             });
-            customer.addPromotion(promotion);
         }
     }
 
