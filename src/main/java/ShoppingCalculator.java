@@ -16,27 +16,27 @@ import java.util.Comparator;
  */
 public class ShoppingCalculator {
     public static void main(String[] args) {
-        /*Store store = new Store();
+        Store store = new Store();
         Customer customer = new Customer();
         ShoppingCart shoppingCart = new ShoppingCart();
 
         for (String arg : args) {
             shoppingCart.addToBasket(store.takeAProduct(arg));
         }
-        */
         //For testing via compiler
+        /*
         Store store = new Store();
         Customer customer = new Customer();
         ShoppingCart shoppingCart = new ShoppingCart();
-        /*shoppingCart.addToBasket(store.takeAProduct("Apple"));
-        shoppingCart.addToBasket(store.takeAProduct("Apple"));*/
+        shoppingCart.addToBasket(store.takeAProduct("Apple"));
+        shoppingCart.addToBasket(store.takeAProduct("Apple"));
         shoppingCart.addToBasket(store.takeAProduct("Soup"));
         shoppingCart.addToBasket(store.takeAProduct("Soup"));
         shoppingCart.addToBasket(store.takeAProduct("Soup"));
         shoppingCart.addToBasket(store.takeAProduct("Soup"));
         shoppingCart.addToBasket(store.takeAProduct("Bread"));
         shoppingCart.addToBasket(store.takeAProduct("Bread"));
-
+        */
 
 
         CashierService cashierService = new CashierService(shoppingCart, store, customer);
